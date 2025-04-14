@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوق العبيد</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">الصفحة الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="cart.html">السلة</a></li>
+            <li class="cart">
+                <span id="cart-count">0</span>
+                <img src="images/cart-icon.png" alt="أيقونة السلة">
+            </li>
+        </ul>
+    </nav>
+
+    <!-- الرأس -->
+    <header>
+        <img src="images/logo.jpg.png" alt="شعار سوق العبيد">
+        <h1>سوق العبيد</h1>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <section class="products">
+            <h2>منتجاتنا المميزة</h2>
+            <div class="product-list">
+                <!-- بطاقة 1 -->
+                <div class="product-card" id="friend1">
+                    <img src="images/friend1.jpg" alt="ضياء حريز">
+                    <h3>ضياء حريز</h3>
+                    <p>السعر: 10 ضحكات</p>
+                    <a href="product.html?id=friend1" class="btn">عرض التفاصيل</a>
+                </div>
+                <!-- بطاقة 2 -->
+                <div class="product-card" id="friend2">
+                    <img src="images/bounenni.jpg" alt="محمد المختار بونني">
+                    <h3>محمد المختار بونني</h3>
+                    <p>السعر: 15 ضحكة</p>
+                    <a href="product.html?id=friend2" class="btn">عرض التفاصيل</a>
+                </div>
+                <!-- بطاقة 3 -->
+                <div class="product-card" id="friend3">
+                    <img src="images/fares.jpg" alt="فارس الكلاعي">
+                    <h3>فارس الكلاعي</h3>
+                    <p>السعر: 8 ضحكات</p>
+                    <a href="product.html?id=friend3" class="btn">عرض التفاصيل</a>
+                    <div class="product-card">
+                        <img src="images/ali.jpg" alt="علي بن رزيق">
+                        <h3>علي بن رزيق</h3>
+                        <p class="price">0 ضحكة</p>
+                        <a href="product.html?id=friend4" class="btn">عرض التفاصيل</a>
+                        <div class="product-card">
+                            <img src="images/jawhar.jpg" alt="جوهر">
+                            <h3>جوهر</h3>
+                            <p class="price">100000000000000 ضحكة</p>
+                            <a href="product.html?id=friend5" class="btn">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <p>© 2025 سوق العبيد - مقلب لضو الطحان والبقية!</p>
+        <div class="social-links">
+            <a href="#" class="social-icon"><img src="images/twitter-icon.png" alt="تويتر"></a>
+            <a href="#" class="social-icon"><img src="images/facebook-icon.png" alt="فيسبوك"></a>
+            <a href="#" class="social-icon"><img src="images/instagram-icon.png" alt="إنستغرام"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
